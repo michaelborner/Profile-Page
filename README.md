@@ -6,4 +6,4 @@
 - Project articles
 - Email contact form with message box
 
-![Profile Page Screenshot](screenshot.png)
+![Profile Page Screenshot](screenshot.PNG)
