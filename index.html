@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Borner's Personal Site</title>
+</head>
+<body>
+    <header>
+        <h1>Michael Borner</h1>
+		<p> Thank you for visiting my page! This has been created as a project for Web Scripting I-54198, as a means of developing my HTML and CSS skills. </p>
+		<img src="images/dancing.gif" alt="Retro analog gif of a person dancing" width="300">
+        <br>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p> Hello! My name is Michael Borner, I am a 28 year old student learning programming at Lake Land Community College. I'm a dad, guitarist, history nerd, and a gamer. My son Sebastian is 5 years old, and our family has 3 cats, each of whom are named after characters from my favorite TV show, It's Always Sunny in Philadelphia. Their names are: Artemis, Charlie, and Frank. </p>
+			<p> I'm not sure where my studies are going to take me exactly, but I would like to find remote work in the IT field after finishing my studies. I find the idea of a career path that allows for a self-set work schedule and is open to remote options appealing, as I find it helps me achieve an ideal work/life balance. </p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>I am currently developing a better understanding of the following:</p>
+			<ul>
+ 				<li>Python (Beginner) </li>
+                <li>Javascript (Beginner) </li>
+                <li>HTML and CSS (Beginner) </li>
+                <li>Troubleshooting/Configuration (Beginner) </li>
+				<li>Hardware Assembly (Competent) </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+          		<article>
+                  <h3>Home Server/NAS/Jellyfin Project </h3>
+                  <p>I am currently in the process of creating a home media server, running Ubuntu on an HP EliteDesk with a RAID array as NAS, utilizing Jellyfin and -arrr stack software to integrate everything into one, user-friendly experience which I can access from any device on my home network (and eventually from other networks as well) </p>
+                  </article>
+                <article>
+                <h3>Self-Hosted Stoat Mod Bot </h3>
+                <p> As a collaborative effort with some colleagues online, I am currently undertaking a project to script a custom moderator bot for usage with the new Discord-alternative "Stoat". This will require self-hosting as well, we have not yet decided if we should try hosting this on my home server or if we should outsource hosting to a professional service. Currently we are in the infant stages of this project. </p>
+                <article>
+        </section>
+		<section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" required minlength="2">
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required>
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required minlength="10"></textarea>
+				<br><br>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+	</main>
+    <footer>
+        <p>&copy; 2026 Michael Borner</p>
+        <a href="https://www.reddit.com/r/cats/" target="_blank">Check out this Social Media!</a>
+    </footer>
+</body>
+</html>
